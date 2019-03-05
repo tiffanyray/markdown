@@ -1,0 +1,68 @@
+$background: hsl(0,0,0)
+$darkBlue: hsl(216, 21%, 16%)
+$accent: hsl(186, 62%, 62%)
+$muteBlue: hsl(186, 20%, 54%)
+$lightGrey: hsl(219, 2%, 77%)
+    
+$mainOrange: hsl(24, 97, 70)
+$red: hsl(355, 38%, 33%)
+    
+body, html
+    padding: 0
+    margin: 0
+
+.container
+    width: 100vw
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    align-items: center
+    background-color: $background
+
+.title
+    width: 100vw
+    text-align: center
+    padding-top: 1rem
+    font-size: 1.75rem
+    color: $accent
+
+#editor
+    box-sizing: border-box
+    width: 70vw
+    min-height: 200px 
+    background-color: $darkBlue
+    border: 2px solid $accent
+    outline: none
+    padding: 1rem
+    margin: 1.5rem 0
+    line-height: 1.25rem
+    color: $muteBlue
+
+#preview
+    box-sizing: border-box
+    width: 70vw
+    min-height: 400px
+    text-align: left
+    border: 2px solid $accent
+    padding: 2rem
+    margin-bottom: 3rem
+    line-height: 1.25rem
+    color: $lightGrey
+
+
+@media screen and (min-width: 600px)
+    .title
+        font-size: 2.25rem
+    #editor
+        width: 60vw
+    #preview
+        width: 60vw
+
+@media screen and (min-height: 1000px)
+    #editor
+        min-height: 400px
+
+@media screen and (min-height: 1200px)
+    #preview
+        min-height: 575px
