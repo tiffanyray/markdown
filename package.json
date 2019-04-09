@@ -31,9 +31,17 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.0"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffanyray/markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tiffanyray/markdown/issues"
+  },
+  "homepage": "https://github.com/tiffanyray/markdown#readme"
 }
