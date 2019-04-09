@@ -8,7 +8,7 @@ class Editor extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            markdown: '# Welcome!\n## This is my Markdown Editor\n<a href=\"https://tiffanyray.github.io/portfolio\" target=\"_black\">Checkout My Portfolio</a>\n`<div> I promise I\'m cool :) </div>`\n```\nconst yourCoolToo = (name) => {\n  console.log(`${name}\'s cool too`);\n};\n```\n>What more projects?\n\n Project | Link\n------------- | ------------- \nQuote Generator | <a href=\"https://tiffanyray.github.io/quoteGenerator/\" target=\"_black\">Get A Quote Now!</a> \nQuiz | <a href=\"https://tiffanyray.github.io/quiz/\" target=\"_black\">How\'s your life going? jk..</a>\nTicTacToe | <a href=\"https://tiffanyray.github.io/ticTacToe/\" target=\"_black\">Play TicTacToe Solo</a>'
+            markdown: '# Welcome!\n## This is my Markdown Editor.\nErase me and type anything you would like!\n<a href=\"https://tiffanyray.github.io/portfolio\" target=\"_black\">Checkout My Portfolio</a>\n`<div> I promise I\'m cool :) </div>`\n```\nconst yourCoolToo = (name) => {\n  console.log(`${name}\'s cool too`);\n};\n```\n>Want more projects?\n\n Project | Link\n------------- | ------------- \nQuote Generator | <a href=\"https://tiffanyray.github.io/quoteGenerator/\" target=\"_black\">Get A Quote Now!</a> \nQuiz | <a href=\"https://tiffanyray.github.io/quiz/\" target=\"_black\">Should you go camping?</a>\nTicTacToe | <a href=\"https://tiffanyray.github.io/ticTacToe/\" target=\"_black\">Play TicTacToe Solo</a>'
         }
         this.handleChange = this.handleChange.bind(this);
     }
